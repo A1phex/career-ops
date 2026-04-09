@@ -3,14 +3,14 @@
 # This is the single source of truth for your personal data across all modes.
 
 candidate:
-  full_name: "Jane Smith"
-  email: "jane@example.com"
-  phone: "+1-555-0123"
-  location: "San Francisco, CA"
-  linkedin: "linkedin.com/in/janesmith"
-  portfolio_url: "https://janesmith.dev"
-  github: "github.com/janesmith"
-  twitter: "https://x.com/janesmith"
+  full_name: "Janmesh Thakare"
+  email: "janmesh.thakare@gmail.com"
+  phone: "+4915752912230"
+  location: "Munich, Bavaria, DE"
+  linkedin: "https://www.linkedin.com/in/janmesht/"
+  portfolio_url: ""
+  github: "https://github.com/A1phex"
+  twitter: ""
   # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
   # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
   # The ID starts with "D" and is 11 characters long.
@@ -19,53 +19,73 @@ candidate:
 target_roles:
   # Your North Star roles — what you're optimizing for
   primary:
-    - "Senior AI Engineer"
-    - "Staff ML Engineer"
+    - "Systems Engineer"
+    - "Requirements Engineer"
+    - "MBSE Engineer"
   # Archetypes help the evaluation system score fit
   archetypes:
-    - name: "AI/ML Engineer"
-      level: "Senior/Staff"
-      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
-    - name: "AI Product Manager"
-      level: "Senior"
+    - name: "Systems Engineer (MBSE / SysML)"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "Requirements Engineer"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "Mechatronics / Automotive Engineer"
+      level: "Junior-Mid"
       fit: "secondary"
-    - name: "Solutions Architect"
-      level: "Mid-Senior"
-      fit: "adjacent"
+    - name: "Simulation / Validation Engineer"
+      level: "Junior-Mid"
+      fit: "secondary"
 
 narrative:
   # Your professional headline (1 line)
-  headline: "ML Engineer turned AI product builder"
+  headline: "M.Sc. Mechatronics | Systems Engineer mit MBSE/SysML-Erfahrung bei BMW AG"
   # Your exit story — what makes you unique
-  exit_story: "Built and sold my SaaS after 5 years. Now focused on applied AI at scale."
+  exit_story: >
+    Masterabschluss in Mechatronik (Uni Siegen, 2025) mit Abschlussarbeit bei BMW AG
+    (Note 1.3) zum Thema Airbag-Unterdrückungsarchitektur gemäß FMVSS 208 und ISO 15288.
+    Praktische Erfahrung in MBSE/SysML (MagicDraw/Cameo), Anforderungsmanagement,
+    Systemarchitektur und Validierung. Ingenieurhintergrund aus Maschinenbau (B.Eng. Pune,
+    Auszeichnung) und einem Jahr V/V-Praxis bei John Deere.
   # Your top 3-5 superpowers
   superpowers:
-    - "End-to-end ML pipelines"
-    - "Fast prototyping (idea to prod in 2 weeks)"
-    - "Cross-functional communication"
+    - "MBSE / SysML-Modellierung (Anforderungen, Architektur, Verhalten)"
+    - "Anforderungsableitung und Traceability (ISO 15288 / 29148)"
+    - "MATLAB/Simulink Simulation, Validierung, DOE-Auswertung"
+    - "Stakeholder-Alignment über Safety, Hardware und Test hinweg"
+    - "Strukturiertes Arbeiten unter wechselnden Anforderungen"
   # Proof points — projects, articles, case studies with measurable impact
   proof_points:
-    - name: "Project Alpha"
-      url: "https://janesmith.dev/project-alpha"
-      hero_metric: "Reduced inference latency 40%"
-    - name: "Open Source Tool"
-      url: "https://github.com/janesmith/tool"
-      hero_metric: "2K+ GitHub stars"
+    - name: "Masterarbeit BMW AG – Dynamic Suppression (DASS)"
+      url: ""
+      hero_metric: >
+        35 SysML-Requirement-Elemente strukturiert (Hierarchietiefe bis 4 Ebenen);
+        Ansatz wird laut BMW-Betreuern weiterverfolgt und bereits implementiert
+    - name: "Projektarbeit – Simulation von Schwingungszeitreihen (SHM)"
+      url: ""
+      hero_metric: "Note 1.3; Modalreduktion in MATLAB zur Laufzeitbeschleunigung"
+    - name: "BMW-Praktikumszeugnis"
+      url: ""
+      hero_metric: >
+        Eigeninitiative: Stufe A (höchste); Teamfähigkeit: Stufe A;
+        Arbeitstempo „weit über Erwartungen"
   # Optional: dashboard/demo URL with credentials
   # dashboard:
   #   url: "https://janesmith.dev/demo"
   #   password: "demo-2026"
 
 compensation:
-  target_range: "$150K-200K"     # Your target total comp
-  currency: "USD"
-  minimum: "$120K"               # Walk-away number
-  location_flexibility: "Remote preferred, 1 week/month on-site possible"
+  target_range: "50.000–65.000 EUR"
+  currency: "EUR"
+  minimum: "45.000 EUR"
+  location_flexibility: "München bevorzugt; Hybrid; deutschlandweit möglich"
 
 location:
-  country: "United States"
-  city: "San Francisco"
-  timezone: "PST"
-  visa_status: "No sponsorship needed"
+  country: "Germany"
+  city: "Munich"
+  timezone: "CET/CEST"
+  visa_status: >
+    Aufenthaltstitel gültig bis 16.11.2026, Erwerbstätigkeit erlaubt
+    (§20 Abs. 1 Nr. 1 AufenthG); kein Sponsoring erforderlich
   # For remote roles outside your country:
   # onsite_availability: "1 week/month in any city"
